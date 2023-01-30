@@ -1,0 +1,67 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(243, 240, 255);
+  position: absolute;
+  top: 0%;
+  top: 0;
+  left: 0;
+  bottom: 0%;
+  .SignUpButton
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .project-heading {
+    color: rgb(48, 47, 47);
+    text-align: center;
+    font-size: 2rem;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 1rem;
+  }
+  .Form {
+    height: 25rem;
+    display: flex;
+    background-color: rgb(159, 173, 185);
+    flex-direction: column;
+    width: 25%;
+    top: 10%;
+    position: absolute;
+    left: 38%;
+    // border: thin solid rgb(180, 174, 180);
+    // border-radius: 1.25rem;
+    padding: 0.25rem;
+    input[type="text"],
+    input[type="password"] 
+    {
+      width: 100%;
+      font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      padding: 1rem;
+      // margin: 4px 0;
+      // background-color: rgb(216, 210, 210);
+      display: inline-block;
+      border: thin solid rgb(19, 6, 6);
+      box-sizing: border-box;
+      border-radius: 1rem;
+    }
+
+    label {
+      font-size: 1.5rem;
+      // color: rgb(241, 238, 238);
+      font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .error
+    {
+        color: red;
+        font-size: 1.5em;
+        margin: 0;
+        padding: 0;
+        font-family: Georgia, "Times New Roman", Times, serif;
+    }
+    .message {
+      font-size: 2rem;
+    }
+  }
+}
